@@ -1,0 +1,129 @@
+/* <!-- Note to self: use table or flex to stop text from wrapping around images --> */
+/* <!-- Anchors are still not shading on hover --> */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    background-color: rgba(100, 164, 201, 0.2);
+    text-decoration: underline;
+}
+
+header {
+    background-image: url(images/background-4.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    padding-top: 350px;
+    padding-bottom: 500px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: #FFFFFF;
+    padding-top: 150px;
+    padding-bottom: 25px;
+}
+
+footer ul {
+    margin-top: 40px;
+}
+
+footer a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+footer a, footer li {
+    display: inline-block;
+    padding: 3%;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.my-greeting {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.my-name {
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 200px;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin: 100px 10% 200px 10%;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.my-journey img {
+    float: left;
+    margin: 0 5% 0 10%;
+}
+
+.my-journey li {
+    margin: 100px 20%;
+}
+
+.content-anchor {
+    font-size: 2em;
+    font-weight:bold;
+    color:rgb(0, 132, 219);
+}
+
+.content-subtitle {
+    font-size: 1.2em;
+    font-style: oblique;
+    color:rgb(18, 145, 71);
+}
+
+.content {
+    display: flex;
+    color:rgb(95, 95, 95);
+    font-size: 1em;
+}
+
+.cv-link {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    height: 200px;
+    width: 133px;
+    padding: 0;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.cv-link a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.cv-link a:hover {
+    text-decoration: underline;
+}
